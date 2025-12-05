@@ -4,9 +4,9 @@
 ---
 
 ## **1. multi-tier project **
-** multi-tier project ** [multi-tier](./multi-tier)  
-The multi-tier project Covers all the essential components of Orchestration tool. The project is designed on simple way. Each folder (frontend and backend) contains their source code for the app. and its Dockerfile that kubernetes uses to build their pods. In addition, folder (manifests) has .yml files for deployments, services, secrets and env values. K3 reads the metadata inside these .yml files and builds the services. I have also included the commands and architecture of the overall project on the .png file. Please check it out. 
-- 
+**multi-tier project** [multi-tier](./multi-tier)  
+- The multi-tier project Covers all the essential components of Orchestration tool. The project is designed on simple way. Each folder (frontend and backend) contains their source code for the app. and its Dockerfile that kubernetes uses to build their pods. In addition, folder (manifests) has .yml files for deployments, services, secrets and env values. K3 reads the metadata inside these .yml files and builds the services. I have also included the commands and architecture of the overall project on the .png file. Please check it out. 
+
 
 --- 
 ## ⭐ Learn More on Next Steps:
