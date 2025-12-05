@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>Frontend</title></head>
+<body>
+  <h2>Frontend (Nginx)</h2>
+  <p>This frontend calls Flask backend API and displays DB time:</p>
+  <div id="api"></div>
+  <script>
+    fetch("/api")
+      .then(res => res.json())
+      .then(data => document.getElementById("api").innerText = JSON.stringify(data))
+      .catch(err => document.getElementById("api").innerText = "Error: " + err);
+  </script>
+</body>
+</html>
+
